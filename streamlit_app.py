@@ -4,7 +4,7 @@ import streamlit as st
 #import col
 from snowflake.snowpark.functions import col
 import requests
-import pd
+import pandas as pd
 
 # Write directly to the app
 #タイトル、絵文字変更
