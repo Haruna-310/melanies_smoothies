@@ -48,7 +48,7 @@ if ingredient_list:
     #st.stop()
     
     #submitボタン付与
-    time_to_insert = st.button('Submit Order')
+time_to_insert = st.button('Submit Order')
 my_insert_name = """ insert into smoothies.public.orders(name_on_order)
                 values ('""" + name_on_order + """')"""    
 if time_to_insert:
